@@ -1,6 +1,8 @@
 import org.newdawn.slick.*;
+import resources.Text;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
@@ -9,7 +11,7 @@ public class Main extends BasicGame {
     private static int TARGET_FRAMERATE;
     private static int SCREEN_WIDTH;
     private static int SCREEN_HEIGHT;
-
+    File r;
     public Main(String title) {
         super(title);
     }
@@ -49,7 +51,7 @@ public class Main extends BasicGame {
 
     @Override
     public void init(GameContainer container) throws SlickException {
-
+        r = new File("src\\player\\heritage\\one");
     }
 
     @Override
@@ -59,6 +61,10 @@ public class Main extends BasicGame {
 
     @Override
     public void render(GameContainer container, Graphics g) throws SlickException {
-
+        try {
+            Text.drawTextFromFile(r, 50, 50, g);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

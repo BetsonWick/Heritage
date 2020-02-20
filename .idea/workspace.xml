@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d504d7a5-7fc9-467c-b195-1821d703e359" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/configuration/setup.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Drawable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/player/Heritage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/player/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/player/heritage/one" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/ImageLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/Text.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/fonts/Font.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/fonts/FontType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Heritage/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Heritage/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -39,6 +48,12 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Noteb\IdeaProjects\Heritage\src\player\heritage" />
+      <recent name="C:\Users\Noteb\IdeaProjects\Heritage\src" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -65,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582225929329</updated>
       <workItem from="1582225931845" duration="403000" />
-      <workItem from="1582226489360" duration="1005000" />
+      <workItem from="1582226489360" duration="3300000" />
     </task>
     <servers />
   </component>
@@ -73,14 +88,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1582225989484">
+    <state x="535" y="223" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582229447617">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1582225989484" />
-    <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582227417685">
+    <state x="535" y="223" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1582229447617" />
+    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1582229131254">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1582227417685" />
+    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1582229131254" />
+    <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582228573431">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1582228573431" />
     <state x="406" y="12" key="CommitChangelistDialog2" timestamp="1582227526101">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -93,22 +112,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="473" y="158" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582225963360" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1582227503124">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1582229791867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582227503124" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1582227503124">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582229791867" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1582229791867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582227503124" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1582227503124">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582229791867" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1582229791867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582227503124" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1582227503124">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582229791867" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1582229791867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582227503124" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582229791867" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1582225966427">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
